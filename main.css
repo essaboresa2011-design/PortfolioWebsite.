@@ -164,6 +164,14 @@
       color: white;
     }
 
+     .player1, player2{
+      overflow: hidden;
+     }
+
+
+     .player1, player2 img{
+      align-items:center;
+     }
 
     .glink{
       color: white;
@@ -204,6 +212,7 @@
       padding: 2rem; 
         }
       }
+
 
 
 
