@@ -182,7 +182,7 @@
       margin-left: 450px;
     }
 
-    @media(max-width: 768px) {
+    @media(max-width: 430px) {
       .img1{
         height: 300px;
         width: 25rem;
@@ -205,3 +205,4 @@
 
 
     }
+
