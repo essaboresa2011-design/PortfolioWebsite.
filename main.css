@@ -190,6 +190,36 @@
       margin-left: 450px;
     }
 
+/* Add this to your main.css for mobile responsiveness */
+
+body, .container, .player1, .player3, .skills, header, footer {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Make images responsive */
+img, .form {
+    max-width: 100%;
+    height: auto;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.skills span {
+    flex: 1 1 120px;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+/* Responsive section padding */
+.container, .player1, .player3 {
+    padding: 1rem;
+}
+
     @media(max-width: 768px) {
       .img1{
         height: 300px;
@@ -216,6 +246,16 @@
       margin-left:2rem;
       padding: 1rem;
       }
+
+         /* Reduce font sizes if needed */
+    h1, p, li, span {
+        font-size: 1em;
+    }
+    .imgflex, .form {
+        width: 100% !important;
+    }
+}
+
 
 
 
