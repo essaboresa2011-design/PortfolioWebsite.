@@ -194,14 +194,14 @@
       .img1{
         height: 300px;
         width: 25rem;
-        margin-left: 0;
+        align-items:center;
       }
 
       .imgflex{
         display: flex;
         width: 20rem;
         height: 15rem;
-        margin-left: 0;
+        align-items:center;
       }
 
       .container{
@@ -212,6 +212,7 @@
       padding: 2rem; 
         }
       }
+
 
 
 
